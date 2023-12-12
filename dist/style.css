@@ -1,0 +1,64 @@
+.profile__image{
+  width: 230px;
+height: 231px;
+flex-shrink: 0;
+  
+  
+}
+
+
+
+.profile__content{
+ display: flex;
+width: 202px;
+padding: 30px;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+}
+.profile__title{
+  color: var(--text-color, #252B42);
+text-align: center;
+
+/* h5 */
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 150% */
+letter-spacing: 0.1px;
+}
+
+.profile__post{
+  color: var(--second-text-color, #737373);
+text-align: center;
+
+/* h6 */
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.2px;
+}
+.profile__social{
+  display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+.profile link{
+  width: 30px;
+height: 30px;
+flex-shrink: 0;
+}
+.profile__ba{
+ width: 50px;
+height: 30px;
+flex-shrink: 0;
+ }
+.profile__icon{
+width: 40px;
+height: 30px;
+flex-shrink: 1;  
+}
